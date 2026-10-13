@@ -45,15 +45,15 @@ int main() {
         sub(x,y);
         break;
       case 3: 
-      cout << "Enter two numbers: ";
-      cin >> x >> y;
-      mul(x,y);
-      break;
+        cout << "Enter two numbers: ";
+        cin >> x >> y;
+        mul(x,y);
+        break;
       case 4:
-      cout << "Enter two numbers: ";
-      cin >> x >> y;
-      divide(x,y);
-      break;
+        cout << "Enter two numbers: ";
+        cin >> x >> y;
+        divide(x,y);
+        break;
       case 5:
         cout << "Bye!" << endl;
         break;
