@@ -9,8 +9,8 @@ int main () {
   cout << "Enter number: ";
   cin >> number;
 
-  cout << "--Multiplication Table using DO-WHILE" << endl;
-
+  cout << "--Multiplication Table using DO-WHILE--" << endl;
+  
   do {
 
     cout << number << " * " << i << " = " << number*i << endl;
@@ -18,4 +18,6 @@ int main () {
   } while (i<=10);
 
   return 0;
+
+  // in addition to the Multiplication Table using cpp
 }
