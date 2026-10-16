@@ -2,7 +2,7 @@
 using namespace std;
 
 int main () {
-
+  
   int Array[3][8] = {
     {1,2,3,4,5,6,7,8},
     {9,10,11,12,13,14},
@@ -16,5 +16,6 @@ int main () {
     cout << endl;
   }
 
+  // the other number of elements is 0 because it didn't reach 8
   return 0;
 }
